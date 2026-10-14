@@ -1,0 +1,58 @@
+{
+  "name": "dsh-obsidian-vaultbridge",
+  "version": "0.2.0",
+  "description": "独立 DSH Host 插件：通过 Obsidian Local REST API 安全读取、搜索及写入论文笔记。",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./src/client.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "src",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "scripts",
+    "test",
+    "icon.png",
+    "NOTICE",
+    "icons-sources.json"
+  ],
+  "icon": "./icon.png",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "node --check src/client.js && node --check src/index.js"
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "3.18.4"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "obsidian",
+    "local-rest-api"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "author": "XZJ-top",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XZJ-top/dsh-obsidian-vaultbridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XZJ-top/dsh-obsidian-vaultbridge/issues"
+  },
+  "homepage": "https://github.com/XZJ-top/dsh-obsidian-vaultbridge#readme"
+}

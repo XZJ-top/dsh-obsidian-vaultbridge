@@ -1,0 +1,15 @@
+dsh-obsidian-vaultbridge third-party asset notice
+
+The JavaScript source, tests, and original documentation are MIT licensed.
+The official icon.png is excluded from the project MIT license.
+
+Asset: official Obsidian application icon (unaltered original PNG)
+Source: https://obsidian.md/apple-touch-icon.png
+Brand terms: https://obsidian.md/brand
+Obsidian is provided by Dynalist Inc. The Obsidian name, logo, and app icon are trademarks. The official asset is reproduced without editing, distortion, recoloring, or reconfiguration. Commercial use requires contacting Obsidian under its brand guidelines.
+
+This is an independent DSH integration. Use of the official application icon
+identifies the application being connected and does not imply sponsorship,
+endorsement, or authorship by Obsidian.
+
+SHA-256: 7dc5a6a3e4b7cb11dd27e41982c359c31a317203e8a892060b9bc0777fd1a4cd
